@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- reset -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap_4/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Owl -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom -->
+    <link rel="stylesheet" href="css/custom.css">
+    <style>
+        .container2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .box {
+            justify-content: space-evenly;
+        }
+    </style>
+</head>
+
+<body class="cart">
+    <!-- HEADER -->
+    <div class="container">
+        <div class="row">
+            <!-- Welcome  -->
+            <div class="col-md-4 text-left py-4">
+                Chào mừng bạn đến với Tama Watch!
+            </div>
+            <!-- Logo -->
+            <div class="col-md-4 py-4 text-center logo">
+                <img class="w-75" src="img/logo 1.png" alt="">
+            </div>
+            <!-- info user -->
+            <div class="col-md-4">
+                <div class="row h-100 justify-content-end">
+                    <div class=" info-user">
+                        <ul class="list-unstyled list-inline text-right h-100 cart-info ">
+                            <li class="h-100 form-search">
+                                <div class=" text-right search ">
+                                    <form action="" class="h-100">
+                                        <input type="text" class="w-100 shadow-sm rounded-pill border border-secondary"
+                                            name="search" id="" placeholder="Search...">
+                                    </form>
+                                </div>
+                                <a href="" class="alight-center h-100">
+                                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                                </a>
+                            </li>
+                            <li class="h-100">
+                                <a href="cart.html" class="alight-center h-100">
+                                    <i class="fa-solid fa-cart-shopping fa-lg"></i>
+                                </a>
+                            </li>
+                            <!-- <li class="h-100 info">
+                                <a href="" class="alight-center h-100">
+                                    <i class="fa-solid fa-user"></i>
+                                </a>
+                                <div class="user border py-2 shadow-sm ">
+                                    <div class="login pl-4 ">
+                                        <a href="login.html" class="text-dark"> <i class="fa-solid fa-user pr-2"></i>Đăng Nhập</a>
+                                    </div>
+                                    <hr>
+                                    <div class="dangky pl-4 ">
+                                        <a href="" class="text-dark"><i class="fa-solid fa-user-plus pr-2"></i>Đăng
+                                            Ký</a>
+                                    </div> -->
+                    </div>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    <!-- MENU -->
+    <div class="nav">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="box-menuHeader w-100">
+                    <ul class="menuHeader list-unstyled list-inline text-center my-0">
+                        <li class="py-4"><a href="index.html">Trang chủ </a></li>
+                        <li class="py-4 mainMenu">
+                            <a href="" class="d-inline-block">Sản phẩm<i
+                                    class="fa-solid fa-chevron-down fa-2xs"></i></a>
+                            <ul class="subMenu position-absolute border text-left shadow rounded">
+                                <li><a href="" class="decoration-none ">Đồng hồ nam</a></li>
+                                <li><a href="" class="decoration-none ">Đồng hồ nữ</a></li>
+                                <li><a href="" class="decoration-none ">Sản phẩm giảm giá</a></li>
+                                <li><a href="" class="decoration-none ">Sản phẩm nổi bật</a></li>
+                            </ul>
+                        </li>
+                        <li class="py-4"><a href="">Giới thiệu</a></li>
+                        <li class="py-4"><a href="">Tin tức</a></li>
+                        <li class="py-4"><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ==================================================================================== -->
+    <!-- BODY -->
+    <div class="container">
+        <div class="row box mt-3">
+            <div class="left col-8 h6">
+                <a href="" class="text-decoration-none d-block text-dark">
+                    <i class="fa-solid fa-chevron-left"></i>
+                    Tiếp tục mua sắm
+                </a>
+                <hr>
+                <div class=" header">
+                    Giỏ hàng
+                    <span class="d-block number text-secondary"> Có 3 sản phẩm trong giỏ</span>
+                </div>
+                <div class="row ">
+                    <div class="col-2 text-center">
+                        Ảnh
+                    </div>
+                    <div class="col-3 text-center">Tên</div>
+                    <div class="col-2 text-center">Số lượng</div>
+                    <div class="col-3 text-center">Giá</div>
+                    <div class="col-2 text-center">Xóa</div>
+                </div>
+                <div class="row mt-4  border rounded py-1">
+                    <div class="col-12 my-2">
+                        <div class="row item">
+                            <div class="col-2 text-center">
+                                <img src="img/product/pro-1.webp" class="w-75" alt="">
+                            </div>
+                            <div class="col-3 text-center ">ĐỒNG HỒ SOHNLE</div>
+                            <div class="col-2 text-center">1</div>
+                            <div class="col-3 text-center">11.000.000đ</div>
+                            <div class="col-2 text-center">
+                                <a href="" class="btn "><i class="fa-regular fa-trash-can"></i></a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row item">
+                            <div class="col-2 text-center">
+                                <img src="img/product/pro-1.webp" class="w-75" alt="">
+                            </div>
+                            <div class="col-3 text-center ">ĐỒNG HỒ SOHNLE</div>
+                            <div class="col-2 text-center">
+                                <input type="number" value="1" class="w-50" >
+                            </div>
+                            <div class="col-3 text-center">11.000.000đ</div>
+                            <div class="col-2 text-center">
+                                <a href="" class="btn "><i class="fa-regular fa-trash-can"></i></a>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right col-4">
+                <div class="row justify-content-center ">
+                    <div class="col-10 border p-3 rounded ">
+                        <div class="row">
+                            <div class="col-12 header-right h5 text-center">
+                                Thông tin giỏ hàng
+                            </div>
+                            <div class="col-12 mt-3">Sản phẩm muốn thanh toán</div>
+                            <!-- List sản phẩm muốn thanh toán -->
+                            <div class="row justify-content-center list-pay">
+                                <div class="col-10 ">
+                                    <form action="addbill" method="post">
+                                        <div class="row border rounded list my-1 ">
+                                            <div class="col-3 img">
+                                                <img src="img/product/pro-1.webp" class="w-100" alt="">
+                                            </div>
+                                            <div class="col-7 name">
+                                                ĐỒNG HỒ SOHNLE
+                                            </div>
+                                            <div class="col-2">
+                                                SL:1
+                                            </div>
+                                        </div>
+                                        <input type="hidden" name="id" value="1">
+                                        <input type="hidden" name="id" value="2">
+                                        <div class="row summary">
+                                            <ul class="list-unstyled text-secondary">
+                                                <li>ĐỔI HÀNG MIỄN PHÍ - Tại tất cả cửa hàng trong 15 ngày</li>
+                                                <li>Bạn cũng có thể nhập mã giảm giá ở trang thanh toán.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="total h5 py-4">
+                                            Tổng : <span></span>
+                                        </div>
+                                        <button class="btn btn-danger w-100" name="submit"> Thanh toán</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- end list -->
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================================================================================== -->
+    <footer>
+        <div class="container">
+            <div class="row top-footer mb-5">
+                <div class="col-md-4 top-left text-center">
+                    <div class="img-ft">
+                        <img class="w-100" src="img/logo_1-removebg-preview (1).png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-7 top-right">
+                    <p class="text-light">Ngành công nghiệp đồng hồ đeo tay phát triển cùng với sự phát triển mạnh mẽ
+                        của khoa học kỹ thuật. Những chiếc đồng hồ điện tử, đồng hồ năng lượng mặt trời được cải tiến
+                        liên tục cùng với mức giá bình dân</p>
+                </div>
+            </div>
+            <div class="row bt-footer">
+                <div class="col-md-3">
+                    <div class=" header">
+                        Tp.Hà Nội
+                    </div>
+                    <div class="text-light">
+                        Số 78 Vũ Phạm Hàm,Yên Hòa, Cầu Giấy
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class=" header">
+                        Tp.Đà Nẵng
+                    </div>
+                    <div class="text-light">
+                        Số 172 Nguyễn Văn Linh, Vĩnh Trung,Thanh Khê
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class=" header">
+                        Tp.Nha Trang
+                    </div>
+                    <div class="text-light">
+                        Số 15 Hai Bà Trưng, Phường Xương Huân
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class=" header">
+                        Tp.Hồ Chí Minh
+                    </div>
+                    <div class="text-light">
+                        Số 15/7 Tô Ký, Quận 12,HCM
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap -->
+    <script src="js/jquery-3.7.1.min.js">
+    </script>
+    <script src="bootstrap_4/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+        </script>
+    <!-- Owl -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <script src="js/main.js">
+        // console.log(next);
+    </script>
+</body>
+
+</html>

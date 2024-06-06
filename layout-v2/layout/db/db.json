@@ -1,0 +1,210 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "iPhone"
+    },
+    {
+      "id": "2",
+      "name": "iPad"
+    },
+    {
+      "id": "3",
+      "name": "Macbook"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "iPhone 14 256GB - Chính hãng VN/A",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/230310085958-thiet-ke-chua-co-te-f3936e7f-c048-48bf-b075-c26f1221016d-b6e7e3f2-0c77-4905-b427-0d19126bac8c-ced22c85-21b8-4e51-94d3-b4bcecc9b174.jpg?v=1681768931267",
+      "price": "19.990.000",
+      "category": "1",
+      "hot": "1"
+    },
+    {
+      "id": "2",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/13-pm-la-221119025651-2211191456.jpg?v=1681769956803",
+      "name": "iPhone 14 512GB - Chính hãng VN/A",
+      "price": "27.990.000",
+      "category": "1",
+      "hot": "1"
+    },
+    {
+      "id": "3",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/230310085958-thiet-ke-chua-co-te-f3936e7f-c048-48bf-b075-c26f1221016d-b6e7e3f2-0c77-4905-b427-0d19126bac8c-ced22c85-21b8-4e51-94d3-b4bcecc9b174.jpg?v=1681768931267",
+      "name": "iPhone 14 Plus 128GB - Chính hãng VN/A",
+      "price": "21.490.000",
+      "category": "1",
+      "hot": "0"
+    },
+    {
+      "id": "4",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/230225043800-z4137191702518-058b-2b9501d4-15a2-4847-8eaa-24e0234601e0-3be190e2-4b58-4bb1-a842-e3405f90344f.jpg?v=1681768597323",
+      "name": "iPhone 14 Plus 256GB - Chính hãng VN/A",
+      "price": "24.490.000",
+      "category": "1",
+      "hot": "0"
+    },
+    {
+      "id": "5",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/14-plus-xanh-221119023152-221119.jpg?v=1681764957017",
+      "name": "iPhone 14 Plus 512GB - Chính hãng VN/A",
+      "price": "29.990.000",
+      "category": "1",
+      "hot": "0"
+    },
+    {
+      "id": "6",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/z4024574722204-0b2d64e695f486883-20543c81-eee6-4b81-9fc4-2580ae902ff1.jpg?v=1681686601387",
+      "name": "iPhone 14 Pro Max 128GB - Chính hãng VN/A",
+      "price": "26.890.000",
+      "category": "1",
+      "hot": "0"
+    },
+    {
+      "id": "7",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/z4024574722204-0b2d64e695f486883.jpg?v=1681686257597",
+      "name": "iPhone 14 Pro Max 256GB - Chính hãng VN/A",
+      "price": "29.690.000",
+      "category": "1",
+      "hot": "0"
+    },
+    {
+      "id": "8",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/230225032847-12blue.jpg?v=1681681184217",
+      "name": "iPhone 14 Pro Max 512GB - Chính hãng VN/A",
+      "price": "35.790.000",
+      "category": "1",
+      "hot": "0"
+    },
+    {
+      "id": "9",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/220309064807-ipad-air-select-wif-2b2b105e-ce80-4b74-9ca3-4a2cfc4502b1.jpg?v=1681772949763",
+      "name": "iPad Air 5 512GB 5G - Chính hãng VN",
+      "price": "28.990.000",
+      "category": "2",
+      "hot": "0"
+    },
+    {
+      "id": "10",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/220309030153-ipad-air-select-wif-33fbeeb2-49f1-40e9-8f1f-a3784bd8798a-2baecd3c-a79e-4e4d-aa01-eff294c76c48-df73f117-86e8-4c6e-ad1d-cc876f58eb2c.jpg?v=1681772817967",
+      "name": "iPad Air 5 64GB Wifi - Chính hãng VN",
+      "price": "17.590.000",
+      "category": "2",
+      "hot": "0"
+    },
+    {
+      "id": "11",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/220309064820-ipad-air-select-wif-50721011-b894-4421-a076-07494cd60faf-ed864481-b104-4359-83a3-870b6d2974af.jpg?v=1681772767497",
+      "name": "iPad Air 5 256GB Wifi - Chính hãng VN",
+      "price": "18.590.0000",
+      "category": "2",
+      "hot": "1"
+    },
+    {
+      "id": "12",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/ipad-air-5-256gb-5g-chinh-hang-v.jpg?v=1681772244167",
+      "name": "iPad Air 5 256GB 5G - Chính hãng VN",
+      "price": "21.990.000",
+      "category": "2",
+      "hot": "0"
+    },
+    {
+      "id": "13",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/ipad-gen-10-2022-wifi-chinh-hang-1dacd4e8-5f0b-413b-bdce-5a9b242d64bd.jpg?v=1681771996887",
+      "name": "iPad Gen 10 2022 Wifi + 5G - 256GB - Chính hãng VN",
+      "price": "17.990.000",
+      "category": "2",
+      "hot": "0"
+    },
+    {
+      "id": "14",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/221019094952-minhtuanmobile-ipad.jpg?v=1681770848173",
+      "name": "iPad Air 5 512GB 5G - Chính hãng VN",
+      "price": "35.790.000",
+      "category": "2",
+      "hot": "0"
+    },
+    {
+      "id": "15",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/220309030153-ipad-air-select-wif-33fbeeb2-49f1-40e9-8f1f-a3784bd8798a-2baecd3c-a79e-4e4d-aa01-eff294c76c48-df73f117-86e8-4c6e-ad1d-cc876f58eb2c.jpg?v=1681772817967",
+      "name": "iPad Air 5 512GB 5G - Chính hãng VN",
+      "price": "35.790.000",
+      "category": "2",
+      "hot": "0"
+    },
+    {
+      "id": "16",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/ipad-air-5-256gb-5g-chinh-hang-v.jpg?v=1681772244167",
+      "name": "iPad Air 5 512GB 5G - Chính hãng VN",
+      "price": "35.790.000",
+      "category": "2",
+      "hot": "0"
+    },
+    {
+      "id": "17",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/210510031244-28122.png?v=1681831204720",
+      "name": "MacBook Air 13 inch M1 LATE 2020 256GB",
+      "price": "18.990.000",
+      "category": "3",
+      "hot": "0"
+    },
+    {
+      "id": "18",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/220607112243-macbook-air-m2-2022.png?v=1681830958410",
+      "name": "MacBook Air M2 13 inch 2022 8CPU 8GPU 256GB| RAM 8GB",
+      "price": "26.790.000",
+      "category": "3",
+      "hot": "0"
+    },
+    {
+      "id": "19",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/210510031615-28130.png?v=1681830726333",
+      "name": "MacBook Air 13 inch M1 LATE 2020 512GB",
+      "price": "27.990.000",
+      "category": "3",
+      "hot": "1"
+    },
+    {
+      "id": "20",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/210510030751-39792.png?v=1681830475937",
+      "name": "MacBook Air 13 inch M1 LATE 2020 256GB l RAM 16GB",
+      "price": "29.490.000",
+      "category": "3",
+      "hot": "0"
+    },
+    {
+      "id": "21",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/220709095928-macbook-air-m2-2022.jpg?v=1681830207560",
+      "name": "Macbook Air M2 13 inch 2022 8CPU 8GPU 256GB| RAM 16GB",
+      "price": "32.490.000",
+      "category": "3",
+      "hot": "0"
+    },
+    {
+      "id": "22",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/220607113759-macbook-air-m2-2022.png?v=1681829913140",
+      "name": "MacBook Air M2 13inch 2022 8CPU 10GPU 512GB| RAM 8GB",
+      "price": "32.490.000",
+      "category": "3",
+      "hot": "0"
+    },
+    {
+      "id": "23",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/mb-air-230304084301-230304204301.png?v=1681829617300",
+      "name": "MacBook Air 13inch M1 LATE 2020 512GB l RAM 16GB ",
+      "price": "34.490.000",
+      "category": "3",
+      "hot": "0"
+    },
+    {
+      "id": "24",
+      "thumb": "https://bizweb.dktcdn.net/thumb/large/100/480/632/products/9.png?v=1681829396207",
+      "name": "MacBook Air 13 inch M1 LATE 2020 7GPU 512GB l RAM 16GB",
+      "price": "34.490.000",
+      "category": "3",
+      "hot": "0"
+    }
+  ]
+}

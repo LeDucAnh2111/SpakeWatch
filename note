@@ -1,0 +1,31 @@
+$client='
+        <a href="" data-toggle="modal" data-target="#report-toggle" class="d-inline-block">
+        <div class="cart border rounded-circle">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </div>
+        </a>    
+        ';
+
+
+
+        <div class="modal" id="report-toggle">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <div class="modal-title">
+                            Thông báo
+                        </div>
+                        <button class="close" data-dismiss="modal"><span>$times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        Bạn hiện giờ chưa đăng nhập tài khoản, vui lòng đăng nhập tài khoản để tiếp tục !!
+                        <a href="">Bạn có thể nhấn vào đây để qua trang đăng nhập</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-dismiss="modal">
+                            Đóng
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
